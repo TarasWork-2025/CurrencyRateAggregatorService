@@ -1,11 +1,4 @@
-﻿using CurrencyRateAggregatorService.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CurrencyRateAggregatorService.Application.Models.Providers
+﻿namespace CurrencyRateAggregatorService.Application.Models.Providers
 {
     public class ProviderQuote
     {
