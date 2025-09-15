@@ -106,7 +106,7 @@ namespace CurrencyRateAggregatorService.API
            .Produces(StatusCodes.Status404NotFound)
            .WithOpenApi(operation =>
            {
-               operation.Parameters[0].Example = new OpenApiString("2025-09-16");
+               operation.Parameters[0].Example = new OpenApiString("2025-09-15");
                return operation;
            });
 
@@ -132,7 +132,7 @@ namespace CurrencyRateAggregatorService.API
             .Produces(StatusCodes.Status404NotFound)
             .WithOpenApi(operation =>
              {
-                 operation.Parameters[0].Example = new OpenApiString("2025-09-12");
+                 operation.Parameters[0].Example = new OpenApiString("2025-08-12");
                  operation.Parameters[1].Example = new OpenApiString("2025-09-12");
                  return operation;
              });
