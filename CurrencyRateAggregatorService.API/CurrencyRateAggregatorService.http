@@ -1,0 +1,6 @@
+@CurrencyRateAggregatorService_HostAddress = http://localhost:5294
+
+GET {{CurrencyRateAggregatorService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
